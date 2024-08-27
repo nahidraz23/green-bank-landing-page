@@ -2,7 +2,7 @@ function App() {
 
   return (
     <>
-      <h1>Green Bank</h1>
+      <h1>Green Bank Homepage</h1>
     </>
   )
 }
