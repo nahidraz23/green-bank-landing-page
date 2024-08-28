@@ -1,11 +1,14 @@
-import Navbar from "./components/Navbar"
+
+import Reviews from "./components/Reviews"
 
 function App() {
 
   return (
-    <>
-      <Navbar></Navbar>
-    </>
+    <main>
+      <h1>Green Bank</h1>
+      <Reviews />
+    </main>
+
   )
 }
 
