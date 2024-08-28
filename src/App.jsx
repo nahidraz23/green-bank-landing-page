@@ -1,8 +1,10 @@
+import Navbar from "./components/Navbar"
+
 function App() {
 
   return (
     <>
-      <h1>Green Bank Homepage</h1>
+      <Navbar></Navbar>
     </>
   )
 }
