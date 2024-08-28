@@ -1,3 +1,4 @@
+
 import Reviews from "./components/Reviews"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <h1>Green Bank</h1>
       <Reviews />
     </main>
+
   )
 }
 

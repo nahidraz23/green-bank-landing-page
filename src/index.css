@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-    max-width: 1920px;
-    margin: 0 auto;
-    background-color: #1a1E1c;
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #1a1e1c;
+  color: white;
+  font-family: "M PLUS 1", sans-serif;
 }
 
-main{
-    max-width: 90%;
-    margin: 0 auto;
+main {
+  max-width: 90%;
+  margin: 0 auto;
 }
