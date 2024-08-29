@@ -14,8 +14,8 @@ const Herosection = () => {
                         <path d="M1 9.75H23.5M23.5 9.75L16.5 18.25M23.5 9.75L16.5 1.75" stroke="#EFF8F0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                 </button>
-                <div className='flex gap-4'>
-                    <div className='flex'>
+                <div className='flex flex-col md:flex-row text-center md:text-left gap-4'>
+                    <div className='flex justify-center md:justify-start'>
                         <img src={avatar1} alt="" className='border-2 rounded-full' />
                         <img src={avatar2} alt="" className='border-2 rounded-full' />
                         <img src={avatar3} alt="" className='border-2 rounded-full' />
