@@ -8,11 +8,11 @@ const WeOfferSection = () => {
   return (
     <div>
       <div>
-        <h1 className="text-5xl text-center font-bold mt-32">
+        <h1 className="text-4xl md:text-5xl text-center font-bold mt-8 md:mt-32">
           What do we offer?
         </h1>
       </div>
-      <div className="mt-16 grid grid-cols-1 md:grid-cols-3 justify-items-center">
+      <div className="mt-8 md:mt-16 grid grid-cols-1 md:grid-cols-3 justify-items-center gap-8">
         <SingleOffer
           image={offer1}
           mainText={"Security Guarantee"}
