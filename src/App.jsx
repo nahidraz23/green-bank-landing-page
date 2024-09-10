@@ -1,4 +1,5 @@
 import ExperienceSection from "./components/ExperienceSection/ExperienceSection"
+import FindPerfectCard from "./components/FindPerfectCardSection/FindPerfectCard"
 import Herosection from "./components/Herosection"
 import Navbar from "./components/Navbar"
 import PersonalizedSection from "./components/PersonalizedSection/PersonalizedSection"
@@ -16,6 +17,7 @@ function App() {
       <SponsorSection></SponsorSection>
       <WeOfferSection></WeOfferSection>
       <PersonalizedSection></PersonalizedSection>
+      <FindPerfectCard></FindPerfectCard>
       <Reviews />
     </main>
 

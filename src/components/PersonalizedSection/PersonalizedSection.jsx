@@ -5,7 +5,7 @@ const PersonalizedSection = () => {
         <div className='mt-8 md:mt-32 flex'>
             <div className='flex flex-col gap-6'>
                 <h1 className='font-bold text-4xl'>Design your personalized credit card.</h1>
-                <p className='text-secondary w-1/2'>You have the freedom to personalize the design of your credit card, ensuring a truly unique experience that makes you feel extraordinary</p>
+                <p className='text-secondary md:w-1/2'>You have the freedom to personalize the design of your credit card, ensuring a truly unique experience that makes you feel extraordinary</p>
                 <div>
                     <button className='flex items-center gap-4 px-8 py-4 bg-primary-green rounded-full'>
                         <h3 className='font-medium'>Create New Card</h3>
