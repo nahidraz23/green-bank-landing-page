@@ -1,4 +1,5 @@
 import ExperienceSection from "./components/ExperienceSection/ExperienceSection"
+import FAQSection from "./components/FAQSection/FAQSection"
 import FindPerfectCard from "./components/FindPerfectCardSection/FindPerfectCard"
 import Herosection from "./components/Herosection"
 import Navbar from "./components/Navbar"
@@ -19,6 +20,7 @@ function App() {
       <PersonalizedSection></PersonalizedSection>
       <FindPerfectCard></FindPerfectCard>
       <Reviews />
+      <FAQSection></FAQSection>
     </main>
 
   )
